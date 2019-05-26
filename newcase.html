@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Neue Frage - it-help.ch</title>
+
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+   
+<header class="py-4">
+	<div class="container">
+			<div id="logo">
+				<h1> <a href="index.html"><span class="" aria-hidden="true"></span>IT-Hilfestellungen</br> LARS VAN T RIET</a></h1>
+			</div>
+
+		<nav class="d-lg-flex">
+
+			<label for="drop" class="toggle"><span class="fa fa-bars" aria-hidden="true"></span></label>
+			<input type="checkbox" id="drop" />
+			<ul class="menu mt-2 ml-auto">
+				<li class=""><a href="index.html">Startseite</a></li>
+				<li class=""><a href="#aboutme">Über mich</a></li>
+				<li class=""><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+			<div class="login-icon ml-lg-2">
+				<a class="user" href="#login">Mitglieder-Login</a>
+			</div>
+		</nav>
+		<div class="clear"></div>
+
+	</div>
+</header>
+
+<div class="banner inner-banner" id="home">
+	<div class="container">
+
+	</div>
+</div>
+
+<section class="contact py-5 my-lg-5">
+			<div class="col-md-6 mt-md-0 mt-4">
+				<div class="contact_right p-lg-5 p-4">
+					<form action="#" method="post">
+						<div class="w3_agileits_contact_left">
+							<h3 class="mb-3">Neue IT-Frage stellen</h3>
+							<input type="text" name="Name" placeholder="Ihr Name" required="">
+							<input type="email" name="Email" placeholder="Ihre Email-Adresse" required="">
+							<input type="text" name="Phone" placeholder="Betreff des Themas" required="">
+							<textarea placeholder="Ihre Problem-Beschreibung" required=""></textarea>
+						</div>
+						<div class="w3_agileits_contact_right">
+							<button type="submit" >Frage senden</button>
+						</div>
+						<div class="clearfix"> </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="copy-right-top border-top">
+	<p class="copy-right text-center py-4">&copy; 2019 Lars van t Riet. Alle Rechte vorbehalten | Bootstrap-Template von
+		<a href="http://w3layouts.com/"> W3layouts </a>
+	</p>
+</div>
+
+<div class="move-top text-right">
+	<a href="#home" class="move-top"> 
+		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+	</a>
+</div>
+
+<div id="login" class="popup-effect">
+	<div class="popup">
+		<div class="login px-sm-4 mx-auto mw-100">
+			<h5 class="text-center mb-4">Anmeldung auf it-help.ch</h5>
+			<form action="#" method="post">
+				<div class="form-group">
+					<label class="mb-2">Email-Adresse</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required="">
+					<small id="emailHelp" class="form-text text-muted">Email-Adresse des bereits registrierten Benutzers</small>
+				</div>
+				<div class="form-group">
+					<label class="mb-2">Kennwort</label>
+					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="" required="">
+				</div>
+				<button type="submit" class="btn btn-primary submit mt-2">Anmelden</button>
+				<p class="text-center mt-2">
+					<a href="#register">Noch nicht registriert? Jetzt registrieren!</a>
+				</p>
+			</form>
+		</div>
+
+		<a class="close" href="#">&times;</a>
+	</div>
+</div>
+
+
+<div id="register" class="popup-effect">
+	<div class="popup">
+		<div class="login px-sm-4 mx-auto mw-100">
+			<h5 class="text-center mb-4">Jetzt auf it-help.ch registrieren</h5>
+			<form action="#" method="post">
+				<div class="form-group">
+					<label>Vor- und Nachname</label>
+					<input type="text" class="form-control" id="validationDefault01" placeholder="" required="">
+				</div>
+				<div class="form-group">
+					<label>Email-Adresse</label>
+					<input type="email" class="form-control" id="validationDefault02" placeholder="" required="">
+				</div>
+				<div class="form-group">
+					<label class="mb-2">Kennwort festlegen</label>
+					<input type="password" class="form-control" id="password1" placeholder="" required="">
+				</div>
+				<div class="form-group">
+					<label>Kennwort bestätigen</label>
+					<input type="password" class="form-control" id="password2" placeholder="" required="">
+				</div>
+
+				<button type="submit" class="btn btn-primary submit">Jetzt registrieren</button>
+				<p class="text-center mt-3">
+					<a>Mit meiner Registrierung stimme ich zu, dass meine Daten nicht an Dritte weitergegeben werden. Ich bin damit einverstanden, dass it-help.ch mich per Email kontaktieren darf. Änderungen vorbehalten.</a>
+				</p>
+			</form>
+		</div>
+		<a class="close" href="#">&times;</a>
+	</div>
+</div>
+
+</body>
+</html>
